@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_iddrive"
+    android:background="#000">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="33px"
+            android:paddingTop="55.11px"
+            app:srcCompat="@mipmap/iddrivericon" />
+
+        <TextView
+            android:id="@+id/idPrincipaltxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="50px"
+            android:text="ID principal"
+            android:textAlignment="center"
+            android:textColor="@color/colorContrast"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/idPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:backgroundTint="@color/colorPrimary"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:singleLine="false"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/idSecundariotxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="33px"
+            android:text="ID secundario"
+            android:textAlignment="center"
+            android:textColor="@color/colorContrast"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/idSecundario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:backgroundTint="@color/colorPrimary"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:singleLine="false"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/idPasstxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="33px"
+            android:text="Password"
+            android:textAlignment="center"
+            android:textColor="@color/colorContrast"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/idPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:backgroundTint="@color/colorPrimary"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:singleLine="false"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/idEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:layout_marginTop="55.11px"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Eviar"
+            android:textColor="@color/colorContrast" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/vehiculo"
+            android:icon="@drawable/car2"
+            android:title="Vehiculo"
+            />
+        <item
+            android:id="@+id/Actualizar"
+            android:icon="@drawable/act"
+            android:title="Actualizar" />
+        <item
+            android:id="@+id/desbloqueo"
+            android:icon="@drawable/candado"
+            android:title="Seguridad" />
+
+    </group>
+
+    <item android:title="Administrador">
+        <menu>
+            <item
+                android:id="@+id/monitor"
+                android:icon="@drawable/map"
+                android:title="Monitor" />
+            <item
+                android:id="@+id/unidades"
+                android:icon="@drawable/car3"
+                android:title="Unidades" />
+            <item
+                android:id="@+id/personal"
+                android:icon="@drawable/adm"
+                android:title="Personal" />
+            <item
+                android:id="@+id/llaves"
+                android:icon="@drawable/llave"
+                android:title="Llaves" />
+
+        </menu>
+    </item>
+
+</menu>
